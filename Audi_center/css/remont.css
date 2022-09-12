@@ -1,0 +1,330 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif; 
+}
+
+button {
+  width: 280px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(0,30,80);
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: rgb(78, 78, 238);
+  transition: .4s;
+  cursor: pointer;
+}
+
+.header_img > img {
+  top: -22px;
+  width: 100%;
+}
+
+.header_img > span {
+  position: absolute;
+  top: 22vh;
+  left: 20px;
+  width: 600px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.container {
+  margin: 20px 45px 40px;
+}
+
+.TO {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.containet_TO {
+  display: flex;
+  margin-top: 30px;
+}
+
+.to_Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 200px 20px 0px;
+}
+
+.to_Info > p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.to_Info > button:last-child {
+  margin-top: 20px;
+}
+
+.to_Img {
+  padding-right: 90px;
+}
+
+.container_Bus_Service {
+  display: flex;
+  padding: 39px 34px 40px 22px;
+  background-color: rgb(243,245,246);
+}
+
+.bus_Service_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bus_Service_img > span {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: -210px;
+  margin-top: 40px;
+}
+
+.bus_Service_img > img {
+  padding-top: 75px;
+  padding-left: 150px;
+}
+
+.bus_Service_Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bus_Service_Info > p {
+  font-size: 20px;
+  padding: 0px 84px 0px 100px
+}
+
+.bus_Service_Info_Button {
+  display: flex;
+}
+
+.bus_Service_Info_Button > button:first-child{
+  margin-right: 60px;
+}
+
+.container_Express_Service {
+  display: flex;
+  padding: 40px 40px 90px 0px;
+}
+
+.Express_Service_Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 141px 0px 57px;
+}
+
+.Express_Service_Info > span {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: -160px;
+}
+
+.Express_Service_Info > p {
+  font-size: 17px;
+  margin-bottom: 50px;
+
+}
+
+.Express_Service_Img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  margin-right: 90px;
+}
+
+.Express_Service_Info > button:last-child {
+  margin-top: 20px;
+}
+
+.container_Podveska {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px 50px 60px;
+  background-color: rgb(243,245,246);
+}
+
+.Podveska_Img > span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Podveska_Img > img {
+  width: 580px;
+}
+
+.Podveska_Info {
+  padding-left: 150px;
+}
+
+.Podveska_Info > p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.Podveska_Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Podveska_Button > button:last-child {
+  margin-left: 35px;
+}
+
+.container_Remont_TS {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px 29px 60px;
+}
+
+.Remont_TS_Info > span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Remont_TS_Info > p {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 17px;
+  padding-right: 100px;
+}
+
+.Remont_TS_Info > button:last-child{
+  margin-left: 60px;
+}
+
+.Remont_TS_Img {
+  padding-top: 50px;
+}
+
+.Remont_TS_Img > img {
+  width: 650px;
+}
+
+.container_Remont_dvigatelya {
+  display: flex;
+  padding: 21px 36px 23px 60px;
+  background-color: rgb(243,245,246);
+}
+
+.dvigatel_Img > span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.dvigatel_Img > img {
+  width: 580px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.dvigatel_Info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dvigatel_Info > p {
+  font-size: 17px;
+  padding: 25px 120px 27px;
+}
+
+.dvigatel_Info_button > button:last-child{
+  margin-left: 50px;
+}
+
+.container_Remont_Elektro {
+  display: flex;
+  padding: 60px 36px 50px 60px;
+}
+
+.remont_Elektro_Info > span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.remont_Elektro_Info > p {
+  margin-top: 70px;
+  padding: 0px 220px 35px 0px;
+}
+
+.remont_Elektro_Info > button:last-child{
+  margin-left: 50px;
+}
+
+.remont_Eletro_Img > img {
+  width: 580px;
+}
+
+.container_Remont_Kuzova {
+  display: flex;
+  align-items: center;
+  padding: 60px 36px 50px 60px;
+  background-color: rgb(243,245,246);
+}
+
+.remont_Kuzova_Img > span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.remont_Kuzova_Img > img {
+  margin: 64px 68px 34px 90px;
+}
+
+.remont_Kuzova_Info > p {
+  font-size: 17px;
+  margin: 40px 45px 25px 50px;
+}
+
+.remont_Kuzova_Info_Btn {
+  margin-left: 70px;
+}
+
+.remont_Kuzova_Info_Btn > button:last-child{
+  margin-left: 50px;
+}
+
+.remont_Kuzova_Info > button:last-child{
+  margin-left: 50px;
+}
+
+.container_Remont_Toplivnoy_Sustemy {
+  display: flex;
+  padding: 60px 36px 120px 60px;
+}
+
+.Remont_Toplivnoy_Sustemy_Info > span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Remont_Toplivnoy_Sustemy_Info > p {
+  margin: 62px 95px 45px 0px;
+}
+
+.Remont_Toplivnoy_Sustemy_Info > button:last-child{
+  margin-left: 50px;
+}
+
+.Remont_Toplivnoy_Sustemy_Img > img {
+  width: 600px;
+  margin-right: 70px;
+  margin-top: 70px;
+}
